@@ -292,7 +292,7 @@ function (_AbstractConnector) {
         window.okexchain.on('networkChanged', _this5.handleNetworkChanged);
       }
 
-      if (window.okexchain.isMetaMask) {
+      if (window.okexchain.isOKExWallet) {
         ;
         window.okexchain.autoRefreshOnNetworkChange = false;
       } // try to activate + get account via eth_requestAccounts
